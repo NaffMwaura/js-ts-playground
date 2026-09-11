@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "PostgreSQL Indexing & Optimization",
+    "category": "Backend",
+    "description": "Deep dive into B-Trees, GiST, GIN indexes, and query execution plans for production workloads.",
+    "tags": ["database", "sql", "performance"],
+    "level": "Advanced",
+    "timeMinutes": 18
+  },
+  {
+    "id": 2,
+    "title": "State Management with Zustand & Redux Toolkit",
+    "category": "Frontend",
+    "description": "A comparative breakdown of immutable application state architectures in React.",
+    "tags": ["react", "frontend", "architecture"],
+    "level": "Intermediate",
+    "timeMinutes": 12
+  },
+  {
+    "id": 3,
+    "title": "Event-Driven Microservices with RabbitMQ",
+    "category": "Backend",
+    "description": "Decoupling distributed services with reliable message queues and pub/sub patterns.",
+    "tags": ["microservices", "rabbitmq", "node"],
+    "level": "Advanced",
+    "timeMinutes": 25
+  },
+  {
+    "id": 4,
+    "title": "Mastering CSS Grid & Subgrid Layouts",
+    "category": "Frontend",
+    "description": "Practical guide to building complex two-dimensional dashboard layouts without utility bloat.",
+    "tags": ["css", "ui", "layout"],
+    "level": "Beginner",
+    "timeMinutes": 8
+  },
+  {
+    "id": 5,
+    "title": "Docker Multi-Stage Builds & Optimization",
+    "category": "DevOps",
+    "description": "Slash container image sizes and increase build performance for production deployments.",
+    "tags": ["docker", "devops", "containers"],
+    "level": "Intermediate",
+    "timeMinutes": 14
+  },
+  {
+    "id": 6,
+    "title": "FastAPI Async Architecture Patterns",
+    "category": "Backend",
+    "description": "Leveraging Python's ASGI runtime, dependency injection, and Pydantic validation at scale.",
+    "tags": ["python", "api", "backend"],
+    "level": "Intermediate",
+    "timeMinutes": 15
+  }
+]
