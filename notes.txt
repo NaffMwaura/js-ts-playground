@@ -1,0 +1,32 @@
+# JavaScript & JSON Playground - Environment & Run Commands
+
+## 1. Setup & Serve with pnpm
+$ pnpm add -D serve
+
+# In package.json:
+"scripts": {
+  "serve": "serve --cors -l 5000 ."
+}
+
+# Run the data server:
+$ pnpm run serve
+Endpoint: http://localhost:5000/data.json
+
+## 2. Dedicated REST API Alternative (json-server)
+$ pnpm add -D json-server
+
+# In package.json:
+"scripts": {
+  "serve:data": "json-server --watch data.json --port 5000"
+}
+
+$ pnpm run serve:data
+
+## 3. Zero-Dependency Built-in Server
+$ python -m http.server 5000
+
+## 4. Frontend Client Execution
+$ npx serve -l 3000 .
+# or
+$ python -m http.server 3000
+Client URL: http://localhost:3000
