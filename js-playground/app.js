@@ -19,7 +19,7 @@ async function fetchResources() {
 
     const response = await fetch(API_URL);
 
-    // fetch does not throw on 404 or 500 status codes; we check ok explicitly
+    // fetch doesnot throw on 404 or 500 status codes; we check ok explicitly
     if (!response.ok) {
       throw new Error(`Failed to load: ${response.status} (${response.statusText})`);
     }
